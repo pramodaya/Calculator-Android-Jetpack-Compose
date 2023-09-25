@@ -29,7 +29,7 @@ class MainActivity : ComponentActivity() {
                 Calculator(
                     state = state,
                     onAction = viewModel::onAction,
-                    buttonSpacing = 8.dp,
+                    buttonSpacing = btnSpace,
                     modifier = Modifier
                         .fillMaxSize()
                         .background(MediumGray)
